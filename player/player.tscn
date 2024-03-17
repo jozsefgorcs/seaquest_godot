@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://cqywrv508ljvo"]
+[gd_scene load_steps=8 format=3 uid="uid://cqywrv508ljvo"]
 
 [ext_resource type="Texture2D" uid="uid://bp5boksdkog1v" path="res://player/player.png" id="1_e2v78"]
+[ext_resource type="Script" path="res://player/player.gd" id="2_pnbbl"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ifs4e"]
 atlas = ExtResource("1_e2v78")
@@ -41,4 +42,5 @@ animations = [{
 [node name="Player" type="AnimatedSprite2D"]
 sprite_frames = SubResource("SpriteFrames_ctjo5")
 autoplay = "default"
-frame_progress = 0.142186
+frame_progress = 0.619761
+script = ExtResource("2_pnbbl")
